@@ -1,13 +1,13 @@
 export default function SocialSection() {
   return (
-    <div className="flex flex-col py-16 bg-black relative text-white items-center justify-center overflow-hidden">
+    <div className="flex flex-col py-16 bg-black relative text-white items-center justify-center overflow-hidden px-8">
       <div className="w-[890px] h-[80vh] absolute bg-[#E74941]/20 blur-[200px] rounded-full top-1/2 -left-1/4 -translate-y-1/2"></div>
       <p className="text-[32px] font-medium">Follow our socials</p>
       <p className="text-center text-[16px] opacity-70 mt-6">
         Check our profiles to stay up to date with the latest news from <br />{" "}
         the SUBBD world.
       </p>
-      <div className="grid grid-cols-3 gap-6 container mx-auto mt-14">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 container mx-auto mt-14">
         <div className="relative h-[385px]">
           <img
             src="https://s3-alpha-sig.figma.com/img/9261/af50/1fdb5e099fda59ef2061f949bf52cbbf?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PFn8GpoU5FXFZo3UGRqY4jAakKQye0OsZhaZ9WypUyTthRETwbVMjm9hrybR7XWv81KcHJzucQzmaLvbhho2CVl~DAkK1iDlgqSL1P7oGU3STgrM8I4oL1hke4UlTGSlV~YjHF7IvUyjiwqNHRXa6mLJZUxdv0y783hk4k-jbH9H01cHJWTHq~FTtaxp52nNGwKG7kAKNAmaKFnX1~0xRKCxAqI-460kWa-3y4XYUGLnCROHfRRCRUUItuJGLl7jTKX1GDNm7gv05awMKprwO-QU8dJqQuo6JcRyj86deHxlPC1EBt~pNe~dJGSbCWZ4jqHIO3PRBV2CPvgKi9~NFg__"
@@ -55,15 +55,18 @@ export default function SocialSection() {
         </div>
       </div>
       <div className="flex flex-col mt-[104px] w-full px-11">
-        <div className="grid grid-cols-3">
-          <img src="./assets/logo/logo.png" className="w-[134px] h-[27px]" />
+        <div className="w-full grid grid-cols-1 md:grid-cols-3 items-center justify-center gap-4">
+          <img
+            src="./assets/logo/logo.png"
+            className="w-[134px] h-[27px] mx-auto md:ml-0"
+          />
           <div className="flex gap-3 items-center mx-auto">
             <img src="/assets/icons/red-heart.svg" className="w-5 h-5" />
             <p className="text-[16px] font-semibold opacity-50">
               by Creators for Creators
             </p>
           </div>
-          <div className="flex gap-4 ml-auto">
+          <div className="flex gap-4 mx-auto md:ml-auto md:mx-0">
             <div className="flex justify-center items-center w-10 h-10 rounded-full bg-white/10">
               <img src="/assets/icons/instagram.svg" className="w-5 h-5" />
             </div>
@@ -81,7 +84,7 @@ export default function SocialSection() {
             </div>
           </div>
         </div>
-        <p className="text-[13px] font-medium opacity-30 mx-auto mt-8">
+        <p className="text-[13px] font-medium opacity-30 mx-auto mt-8 text-center">
           Copyright © 2024 SUBBD. All rights reserved.
         </p>
       </div>
