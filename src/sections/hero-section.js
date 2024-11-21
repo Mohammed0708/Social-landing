@@ -1,6 +1,6 @@
 export default function HeroSection() {
   return (
-    <div className="flex flex-col min-h-screen relative px-[50px] pt-5">
+    <div className="flex flex-col min-h-screen relative px-12 pt-5">
       <div className="absolute inset-0 -z-10">
         <img
           src="https://s3-alpha-sig.figma.com/img/a12c/6c81/e6a6bb7a6ea47072f419fce685e38891?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=LPlVxzrcbyVPdLHJ~aqigcxYCqVmIxRDhBrAXOiUicSlzjdNvEqLLlu0d6XbuyGnVcLtRrXARGK0cmc0AsewWNSiF8lRxrSQhUyr5F4qS3M08PM2s1ikbHTWBCj8QfmvDjlfsXmzuit3ADBrdfzZte~W1dbepG4cZ73i8v1bVGOJXcYZ3WwLgW6pEbnQd5ad-pvsKZbJ5fO97J8ktXDTGx5KBF51WhdjfAX20IORf7EBUOM1cpdgtxmGWAOEbIIUIXeihfJO-5RSb8mD3pJO-C4OULVZP2fFCOTbtr6AbTW03KIMbqFa2HTJUyvU50h1OQ3NFMF1iq-mqLMygCoiTg__"

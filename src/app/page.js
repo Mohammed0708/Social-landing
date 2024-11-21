@@ -1,6 +1,11 @@
-import HomeView from "@/sections/Home/view/home-view";
-import Image from "next/image";
+import HeroSection from "@/sections/hero-section";
+import SocialSection from "@/sections/Home/social-section";
 
 export default function Home() {
-  return <HomeView />;
+  return (
+    <>
+      <HeroSection />
+      <SocialSection />
+    </>
+  );
 }
